@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Select Tag Dropdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=REM&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="custom-multiselect-container">
+        <div class="custom-select">
+            <div class="select-box">
+                <input type="text" class="tags_input" name="tags" hidden>
+
+                <div class="selected-options"></div>
+
+                <div class="arrow">
+                    <i class="fa fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="options">
+                <div class="option-search-tags">
+                    <input type="text" class="search-tags" placeholder="Search tags..." />
+                    <button type="button" class="clear"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="option-all all-tags">
+                    <div class="option" data-value="Black">Black</div>
+                    <div class="option" data-value="Green">Green</div>
+                    <div class="option" data-value="Navy">Navy</div>
+                    <div class="option" data-value="Orange">Orange</div>
+                    <div class="option" data-value="Pink">Pink</div>
+                    <div class="option" data-value="Red">Red</div>
+                    <div class="option" data-value="Silver">Silver</div>
+                    <div class="option" data-value="White">White</div>
+                    <div class="option" data-value="Yellow">Yellow</div>
+                </div>
+                <span class="tag_error_msg error"></span>
+            </div>
+            <input type="button" class="btn_submit" value="Submit" />
+        </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
