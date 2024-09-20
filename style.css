@@ -26,7 +26,7 @@ custom-multiselect-container {
 .select-box {
   background-color: #ffffff;
   border: 1px solid #ced4da;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,20 +133,21 @@ custom-multiselect-container {
 
 .error {
   color: #ff1a2a;
-  margin-top: 8px;
+  /* margin-top: 8px; */
+  padding: 8px;
 }
 
 .btn_submit {
-  margin-top: 20px;
-  padding: 15px 20px;
+  margin-top: 12px;
+  padding: 14px 20px;
   background-color: #bc0c0c;
   color: #ffffff;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .btn_submit:hover {
-  background-color: #4caf50;
+  background-color: #a80000;
 }
